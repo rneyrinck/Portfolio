@@ -1,0 +1,110 @@
+/*setting font styles, colors, weights, and colors */
+p, li{
+  font-family: 'Fira Sans', sans-serif;
+  font-size:18px;
+  line-height:30px
+}
+h1,h2,h3{
+  font-family: 'IBM Plex Mono', monospace;
+}
+h2,h3{
+  color:blue
+}
+.introRob{
+  font-weight:bold;
+  font-size:68px;
+  line-height:67px
+}
+/*establishing a hero with my picture and brief intro */
+.row {
+   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin: auto
+;
+}
+.column {
+  
+  flex: 100%;
+  padding: 5px;
+
+}
+/*setting up the header so my name appears on teh right and webdev on the left*/
+header div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+
+/*setting background colors and padding for teh different sections*/
+header{
+  background-color:white;
+  margin: 0 0 0 0;
+  padding: 0
+}
+main{
+  background-color: #fff0e5;
+  
+}
+hr{
+  margin:0 0 0 0;
+  padding: 0 0
+}
+body{
+  align-items: center;
+  justify-content: center;
+ 
+}
+/*creating a border around the main content to give it some flair*/
+.aboutMe{
+  
+  border:1px solid black;
+  background: white;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 50px 50px;
+  border-spacing: 20px;
+  position: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*setting up the footer background, margins, and font colors*/
+.letsTalk{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer{
+  background-color: blue;
+   margin: 0 0 0 0;
+    padding: 10px 0;
+}
+footer p,h3{
+  color: white;
+text-align: center
+}
+.footerh2{
+  color:white;
+  text-align: center
+}
+/*centering the social media links together*/
+.center {
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+/*adding pseudo class for button hovering*/
+a:hover{
+  color: lightblue
+}
+a:active{
+  color: greenyellow
+}
+a:visited{
+  color: lightpink
+}
+
