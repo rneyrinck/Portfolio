@@ -37,7 +37,10 @@ header div{
   justify-content: space-between;
   align-items: center
 }
-
+header h1, h2{
+  margin: 20px;
+  padding: 20px
+}
 /*setting background colors and padding for teh different sections*/
 header{
   background-color:white;
@@ -90,6 +93,9 @@ text-align: center
 .footerh2{
   color:white;
   text-align: center
+}
+footer img{
+  padding:10px
 }
 /*centering the social media links together*/
 .center {
